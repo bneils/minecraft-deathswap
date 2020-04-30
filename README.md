@@ -8,3 +8,5 @@ In this repo, there is a datapack and NBT structure. If you wish, you may load t
 
 To manually queue players, use `team join DS_players <selector>`.
 To start the game, use `function deathswap:start` and NOT `deathswap:_start`.
+
+Players are given 4 minutes to explore and scavange for materials on their own randomly in the world after the game starts, and after that they will be given a ~10 second warning before the swap commences. There is no guaranteed order in which players will swap, but mostly it is in order of how Minecraft sorts players. The last player standing wins. All players will become spectators if they die, and ALL participants (alive or dead) will be /kill'd if they leave the game. The main purpose of that is to ensure that players do not fill the teams with zombie/inactive players.

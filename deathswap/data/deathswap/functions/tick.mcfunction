@@ -11,12 +11,6 @@ tag @a remove DS_quitter
 scoreboard players set * DS_online 0
 scoreboard players set @a DS_online 1
 
-## In the case the game crashed, players will not have a "leave" score. All current players must be awarded a tag
-#kill @a[team=!DS_players, tag=DS_wasPlayer]
-#tag @a[team=!DS_players, tag=DS_wasPlayer] remove DS_wasPlayer
-#kill @a[team=!DS_dead, tag=DS_wasDead]
-#tag @a[team=!DS_players, tag=DS_wasDead] remove DS_wasDead
-
 tag @a remove DS_wasPlayer
 tag @a remove DS_wasDead
 tag @a[team=DS_players] add DS_wasPlayer

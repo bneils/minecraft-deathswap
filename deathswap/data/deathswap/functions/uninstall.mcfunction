@@ -9,3 +9,6 @@ scoreboard objectives remove DS_wins
 
 team remove DS_players
 team remove DS_dead
+
+# It was probably false when the datapack was installed so just make it false anyways
+gamerule doImmediateRespawn false

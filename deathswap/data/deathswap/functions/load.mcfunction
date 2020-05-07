@@ -27,3 +27,6 @@ team modify DS_players suffix {"text":" ❤","color":"green"}
 team modify DS_dead suffix {"text":" ☠","color":"red"}
 
 gamerule showDeathMessages false
+
+# To make dying less interruptive
+gamerule doImmediateRespawn true
